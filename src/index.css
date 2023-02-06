@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.screen {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type=text] {
+  padding: 10px 15px;
+  width: calc(22% - 30px);
+  outline: none;
+}
+
+input[type=submit] {
+  height: 39px;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  background: #02962e;
+  color: white;
+  transition: all .4s ease;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+  background: #015a1c;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+th {
+  background: #005E9E;
+  color: white;
+  font-weight: 400;
+  padding: 10px 0;
+  font-size: .8rem;
+  letter-spacing: 2px;
+}
+
+td {
+  font-weight: 400;
+  padding: 0 10px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, .03);
+}
+
+.empty-table {
+  width: 100%;
+  background-color: rgba(0, 0, 0, .1);
+  text-align: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.remove-btn {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: #960202;
+  color: white;
+  transition: all .4s ease;
+}
+
+.remove-btn:hover {
+  cursor: pointer;
+  background: #5a0101;
+}
